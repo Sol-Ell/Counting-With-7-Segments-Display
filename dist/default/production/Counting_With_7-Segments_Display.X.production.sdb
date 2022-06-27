@@ -1,0 +1,41 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 /opt/microchip/xc8/v2.36/pic/sources/c90/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"10 /opt/microchip/xc8/v2.36/pic/sources/c90/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 /opt/microchip/xc8/v2.36/pic/sources/c90/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /opt/microchip/xc8/v2.36/pic/sources/c90/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"28 /home/jamshed/MPLABXProjects/Counting With 7-Segments Display.X/main.c
+[v _main main `(v  1 e 1 0 ]
+"217 /opt/microchip/mplabx/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8/pic/include/proc/pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"1376
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"15 /home/jamshed/MPLABXProjects/Counting With 7-Segments Display.X/main.c
+[v _digits digits `DC[10]uc  1 s 10 digits ]
+"28
+[v _main main `(v  1 e 1 0 ]
+{
+"30
+[v main@number number `uc  1 a 1 10 ]
+"38
+} 0
+"5 /opt/microchip/xc8/v2.36/pic/sources/c90/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 6 ]
+[v ___awmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
